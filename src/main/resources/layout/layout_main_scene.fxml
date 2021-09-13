@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controller.MainSceneController"
+            fx:id="root"
+            stylesheets="/style/style_main_scene.css"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <top>
+        <ToolBar fx:id="toolBar" styleClass="toolBar">
+            <Region styleClass="spacer" />
+            <Button fx:id="homeButton" id="home-button" styleClass="first" prefWidth="50" disable="true">
+                <tooltip><Tooltip text="Home"/></tooltip>
+                <graphic>
+                    <FontIcon iconLiteral="mdi2h-home" iconSize="16"/>
+                </graphic>
+            </Button>
+            <Button fx:id="backButton" id="back-button" styleClass="last" prefWidth="50" disable="true">
+                <tooltip><Tooltip text="Back"/></tooltip>
+                <graphic>
+                    <FontIcon iconLiteral="mdi2a-arrow-left-bold" iconSize="16"/>
+                </graphic>
+            </Button>
+        </ToolBar>
+    </top>
+
+    <center>
+        <VBox alignment="CENTER">
+            <Button fx:id="multiPlayerButton">Play Multi-Player</Button>
+        </VBox>
+    </center>
+
+</BorderPane>

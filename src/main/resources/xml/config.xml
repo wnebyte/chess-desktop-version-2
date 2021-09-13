@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>
+    <server>
+        <connection>
+            <host>127.0.0.1</host>
+            <port>8282</port>
+        </connection>
+    </server>
+
+    <local-player>
+        <connection>
+            <host>localhost</host>
+            <port>2828</port>
+        </connection>
+    </local-player>
+
+    <public-player>
+        <connection>
+            <host>localhost</host>
+            <port>2828</port>
+        </connection>
+    </public-player>
+</configuration>

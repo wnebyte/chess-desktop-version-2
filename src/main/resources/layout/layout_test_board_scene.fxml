@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+
+<?import ui.BoardPane?>
+<BorderPane
+        xmlns="http://javafx.com/javafx"
+        xmlns:fx="http://javafx.com/fxml"
+        fx:controller="controller.test.TestController">
+<center>
+    <BoardPane fx:id="board"
+               prefHeight="600.0" prefWidth="600.0">
+
+    </BoardPane>
+</center>
+</BorderPane>

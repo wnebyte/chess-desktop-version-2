@@ -1,0 +1,30 @@
+.root {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+        -fx-border-color: transparent;
+        -fx-border-width: 5px;
+        -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+
+.hbox-left {
+    -fx-padding: 8, 8, 8, 8;
+}
+
+VBox {
+    -fx-padding: 2, 8, 8, 8;
+}
+
+
+.player-name-text {
+    -fx-font-size: 10px;
+    -fx-font-family: "Arial Narrow", "Sans-Serif";
+  /*  -fx-fill: white; */
+}
+
+.hbox-right {
+    -fx-background-color: rgb(50, 50, 50);
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-padding: 0;
+
+}
+

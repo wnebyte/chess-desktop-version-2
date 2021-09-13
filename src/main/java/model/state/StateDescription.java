@@ -1,0 +1,20 @@
+package model.state;
+
+public enum StateDescription
+{
+    INIT,
+    MOVE,
+    CAPTURE,
+    CASTLE,
+    PAWN_TWO_STEP_MOVE,
+    PAWN_MOVE,
+    PAWN_PROMOTION,
+    EN_PASSANT,
+    CHECK,
+    CHECKMATE,
+    DRAW_BY_STALEMATE,
+    DRAW_BY_THREEFOLD_REPETITION,
+    DRAW_BY_INSUFFICIENT_MATERIAL,
+    DRAW_BY_FIFTY_MOVES_RULE,
+    END_STATE;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<?import ui.Clock?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="controller.misc.CardController"
+      fx:id="root" styleClass="root"
+      prefHeight="60" prefWidth="600">
+
+    <HBox styleClass="hbox-left" alignment="CENTER_LEFT" prefWidth="300" prefHeight="60" >
+        <ImageView fitWidth="45" fitHeight="45" preserveRatio="true" >
+            <Image url="https://moonvillageassociation.org/wp-content/uploads/2018/06/default-profile-picture1.jpg" />
+        </ImageView>
+        <VBox>
+            <Text fx:id="playerName" styleClass="player-name-text" text="LOCAL_PLAYER_NAME" />
+            <HBox />
+        </VBox>
+    </HBox>
+
+    <Clock fx:id="clock" styleClass="clock" scaleX="0.15f" scaleY="0.15f" layoutY="-20" layoutX="320" />
+
+</Pane>

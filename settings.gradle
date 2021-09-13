@@ -1,0 +1,15 @@
+pluginManagement {
+    repositories {
+        maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
+        mavenCentral()
+        maven { url 'https://plugins.gradle.org/m2/' }
+    }
+}
+rootProject.name = 'Chess'
+/*
+--module-path
+${PATH_TO_FX}
+--add-modules
+javafx.controls,javafx.fxml,javafx.base,javafx.graphics,javafx.swing
+ */
+

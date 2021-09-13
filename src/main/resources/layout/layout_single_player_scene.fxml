@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import ui.BoardPane?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      stylesheets="/style/single-player-view.css"
+      fx:controller="controller.game.SinglePlayerController"
+      fx:id="root" styleClass="root">
+
+    <fx:include fx:id="cardTop" layoutX="8" layoutY="15" source="layout_card.fxml" stylesheets="/style/card.css" />
+    <BoardPane fx:id="board" styleClass="board" layoutX="8" layoutY="85" stylesheets="/style/board.css" />
+    <fx:include fx:id="cardBottom" layoutX="8" layoutY="695" source="layout_card.fxml" stylesheets="/style/card.css" />
+
+</Pane>
+
+
